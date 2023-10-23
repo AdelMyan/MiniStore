@@ -1,0 +1,212 @@
+.visually-hidden {
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+body {
+    font-family: Lato;
+}
+
+header {
+    background-color: #EDF1F3;
+    color: black;
+}
+
+main {
+    max-width: 81.25rem;
+    margin: 0 auto;
+}
+
+.aboutpage {
+    text-align: center;
+    padding: 3rem;
+}
+
+.aboutpage h2 {
+    font-weight: 500;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.aboutpage a {
+    color: #72AEC8;
+    text-decoration: underline;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.list li {
+    display: flex;
+    gap: 1rem;
+}
+
+.list h3 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.list p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #3A3A3A;
+    max-width: 15rem;
+}
+
+.found-section {
+    display: flex;
+    gap: 5rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1rem;
+}
+
+.img {
+    width: 100%;
+}
+
+.found-section h2 {
+    font-size: 1.875rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.found-section p {
+    color: #3A3A3A;
+    font-size: 1.15rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+
+}
+
+.button {
+    padding: 1rem 3.125rem;
+    background-color: #000;
+    color: #FFF;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.rating {
+    position: relative;
+
+}
+
+.iconl,
+.iconr {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.iconr {
+    left: 0;
+}
+
+.iconl {
+    right: 0;
+}
+
+.rating div {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #3A3A3A;
+}
+
+.rating div,
+.rating h3 {
+    text-align: center;
+    margin: 1rem 3rem;
+}
+
+.rating ul {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe {
+    display: flex;
+    padding: 5rem 6.875rem;
+    align-items: center;
+    gap: 7.75rem;
+    background-color: #000000;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+.title h2 {
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.title h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form input {
+    padding: 1rem 3rem;
+    background-color: #fff;
+    color: gray;
+    font-size: 1rem;
+    font-weight: 300;
+    outline: none;
+    border: none;
+}
+
+.button {
+    border: none;
+    background-color: #72AEC8;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+}
+
+@media screen and (max-width: 985px) {
+    .img {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    .subscribe {
+        padding: 3rem 1.725rem;
+        gap: 3rem;
+    }
+}
+
+@media screen and (max-width: 484px) {
+    .form {
+        gap: 1rem;
+        justify-content: center;
+    }
+}
